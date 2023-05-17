@@ -13,6 +13,6 @@ foreach (var items in granmaClient.GranmaArticles)
                       $"Published Date : { items.DatePublished:d}\n" +
                       $"Tags used:     : { string.Join(", ", items.TagsUsed) }\n" +
                       $"Resumen        : { items.Summary }\n" +
-                      $"Links          : { items.articleUrl }\n" +
-                      $"Content        \n{ string.Join("\n",items.articleContent) }");
+                      $"Links          : { items.ArticleUrl }\n" +
+                      $"Content        \n{ string.Join("\n",items.ArticleContent) }");
 }
