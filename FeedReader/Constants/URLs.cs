@@ -1,4 +1,4 @@
-namespace FeedReader;
+namespace FeedReader.Constants;
 
 public static class URLs
 {

@@ -1,13 +1,14 @@
 using System.ServiceModel.Syndication;
+using FeedReader.Dtos;
 
-namespace FeedReader;
+namespace FeedReader.Clients;
 
-public class GranmaRSSClient
+public class GranmaRssClient
 {
     public List<GranmaItems> GranmaArticles { get;} = new();
     private HtmlExtractorClient HtmlExtractorClient { get; }
     
-    public GranmaRSSClient(string url)
+    public GranmaRssClient(string url)
     {
         HtmlExtractorClient = new HtmlExtractorClient();
         var feedReader = new SyndicateFeedReader(url);

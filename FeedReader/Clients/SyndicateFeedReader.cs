@@ -1,7 +1,7 @@
 using System.ServiceModel.Syndication;
 using System.Xml;
 
-namespace FeedReader;
+namespace FeedReader.Clients;
 
 public class SyndicateFeedReader
 {

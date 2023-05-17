@@ -1,6 +1,6 @@
 using HtmlAgilityPack;
 
-namespace FeedReader;
+namespace FeedReader.Clients;
 
 public class HtmlExtractorClient
 {
